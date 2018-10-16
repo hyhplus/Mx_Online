@@ -23,7 +23,7 @@ import xadmin
 
 from users.views import LoginView, RegisterView, ActiveUserView, LogoutView
 from users.views import ForgetPwdView, ResetView, ModifyPwdView, IndexView
-from MxOnline.settings import MEDIA_ROOT, STATICFILES_DIRS
+from MxOnline.settings import MEDIA_ROOT, STATICFILES_DIRS, STATIC_ROOT
 
 urlpatterns = [
     # 将admin换为x-admin
@@ -73,7 +73,7 @@ urlpatterns = [
     path('users/', include('users.urls', namespace='users')),
 
     #静态文件
-    re_path(r'^static/(?P<path>.*)', serve, {"document_root": STATICFILES_DIRS[0] }),
+    re_path(r'^static/(?P<path>.*)', serve, {"document_root": STATIC_ROOT[0] }),
 
     # 富文本编辑器url
     path('ueditor/', include('DjangoUeditor.urls')),

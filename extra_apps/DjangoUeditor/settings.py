@@ -38,7 +38,7 @@ UEditorUploadSettings = {
     "snapscreenUrlPrefix": "",
 
     # 抓取远程图片配置 */
-    "catcherLocalDomain": ["127.0.0.1", "localhost", "img.baidu.com"],
+    "catcherLocalDomain": ["132.232.183.81", "localhost", "img.baidu.com"],
     "catcherPathFormat": "",
     "catcherActionName": "catchimage",  # 执行抓取远程图片的action名称 */
     "catcherFieldName": "source",  # 提交的图片列表表单名称 */

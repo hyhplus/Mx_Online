@@ -27,7 +27,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 SECRET_KEY = 'z#4_8pgud7*eae^6)@&25tt+#*c^&q2b%57y91l8i*=p@92c2o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -116,7 +116,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT':  3306,
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': '!2Qw32sd',
         'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB;'}
     }
 }
@@ -186,7 +186,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # 静态文件, Debug=False情况下使用
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 # 分页设置
