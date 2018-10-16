@@ -73,7 +73,7 @@ urlpatterns = [
     path('users/', include('users.urls', namespace='users')),
 
     #静态文件
-    re_path(r'^static1/(?P<path>.*)', serve, {"document_root": STATIC_ROOT}),
+    re_path(r'^static/(?P<path>.*)', serve, {"document_root": STATIC_ROOT}),
 
     # 富文本编辑器url
     path('ueditor/', include('DjangoUeditor.urls')),
