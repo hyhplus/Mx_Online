@@ -186,7 +186,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # 静态文件, Debug=False情况下使用
-STATIC_ROOT = os.path.join(BASE_DIR, 'static1')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static1', '')
 
 
 # 分页设置
