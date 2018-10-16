@@ -23,7 +23,7 @@ import xadmin
 
 from users.views import LoginView, RegisterView, ActiveUserView, LogoutView
 from users.views import ForgetPwdView, ResetView, ModifyPwdView, IndexView
-from MxOnline.settings import MEDIA_ROOT, STATICFILES_DIRS, STATIC_ROOT
+from MxOnline.settings import MEDIA_ROOT, STATICFILES_DIRS
 
 urlpatterns = [
     # 将admin换为x-admin
