@@ -174,7 +174,7 @@ STATICFILES_DIRS = (
 EMAIL_HOST = "smtp.qq.com"                  # SMTP服务器主机
 EMAIL_PORT = 465                             # 端口
 EMAIL_HOST_USER = "1825260046@qq.com"       # 邮箱地址
-EMAIL_HOST_PASSWORD = "funpppbaexdjdjgf"    # 授权码
+EMAIL_HOST_PASSWORD = "tjeiagdrwinddcjf"    # 授权码   funpppbaexdjdjgf
 EMAIL_USE_TLS= True
 EMAIL_FROM = "1825260046@qq.com"            # 邮箱地址
 
