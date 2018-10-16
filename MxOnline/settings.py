@@ -113,7 +113,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'MxOnline',
-        'HOST': '132.232.183.81',
+        'HOST': '127.0.0.1',
         'PORT':  3306,
         'USER': 'root',
         'PASSWORD': '!2Qw32sd',
